@@ -45,6 +45,7 @@ Put out as a dump as I'm too far diverged from 1.6 for it to ever become a PR to
 - Renderpath gets an extra flag to indicate it wants to duplex for VR
   - In which case drawing is performed as instanceCt * instanceMultiplier (only ever 1 or 2 so far)
     - Shaders then have to index as SV_InstanceID & 1 (shader happy version of SV_InstanceID % 2 without heavy modulo), so left-eye is 0 and right-eye is 1
+    - After projection the clipspace position is then moved into the relevant half of the target and the clipping-plane set to the relevant dividing plane so nothing writes into the other eye's space
   - All the above view related stuff happens
 - Audio has to be reinitialized to respond to the change in the default device when XR/VR is started
 

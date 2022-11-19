@@ -1,0 +1,25 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "hellovr.exe",
+   "bindings" : {
+        "/actions/Default": {
+            "poses":[
+                {
+                   "output" : "/actions/default/in/pose",
+                   "path" : "/user/hand/left/pose/raw"
+                },
+                {
+                   "output" : "/actions/default/in/pose",
+                   "path" : "/user/hand/right/pose/raw"
+                }
+            ]
+        }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "holographic_controller",
+   "description" : "",
+   "name" : "Windows Mixed Reality Controller",
+   "options" : {},
+   "simulated_actions" : []
+}

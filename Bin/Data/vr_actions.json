@@ -1,0 +1,88 @@
+{
+    "actions":[
+        {
+            "name": "/actions/Default/in/Pose",
+            "type": "pose",
+            "handed":true
+        },
+        {
+            "name": "/actions/Default/in/GrabGrip",
+            "type": "boolean",
+            "handed": true
+        },
+        {
+            "name": "/actions/Default/in/Move",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/Default/in/Turn",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/Default/in/Menu",
+            "type": "boolean",
+            "requirement": "suggested"
+        },
+        {
+            "name": "/actions/Default/out/Haptic",
+            "type": "vibration"
+        }
+    ],
+    "action_sets":[
+        {
+            "name": "/actions/Default",
+            "usage": "leftright"
+        }
+    ],
+    
+    "default_bindings":[
+        {
+            "controller_type": "holographic_controller",
+            "binding_url": "bindings_holographic_controller.json"
+        },
+        {
+            "controller_type": "holographic_hmd",
+            "binding_url": "binding_holographic_hmd.json"
+        }
+    ],
+    
+    "localization": [
+        {
+            "language_tag": "en_US",
+            "/actions/Default/in/AlternateUse": "Alternate Use",
+            "/actions/Default/in/AlternateUse2": "Alternate Use (Button)",
+            "/actions/Default/in/Cast": "Cast",
+            "/actions/Default/in/ClickUI": "Click UI",
+            "/actions/Default/in/ExternalView": "External View",
+            "/actions/Default/in/ExternalViewLock": "External View Lock",
+            "/actions/Default/in/GrabGrip": "Grab (Grip)",
+            "/actions/Default/in/GrabPinch": "Grab (Pinch)",
+            "/actions/Default/in/Height": "External View Height",
+            "/actions/Default/in/Jump": "Jump",
+            "/actions/Default/in/Kick": "Kick",
+            "/actions/Default/in/Menu": "Menu",
+            "/actions/Default/in/Move": "Move",
+            "/actions/Default/in/Screenshot": "Screenshot",
+            "/actions/Default/in/ScrollUI": "Scroll UI",
+            "/actions/Default/in/SlowTime": "Slow Time",
+            "/actions/Default/in/SpellSelector": "Spell selection",
+            "/actions/Default/in/Telekinesis": "Telekinesis",
+            "/actions/Default/in/TelekinesisAxis": "Telekinesis (Axis)",
+            "/actions/Default/in/TelekinesisPull": "Telekinesis (Pull)",
+            "/actions/Default/in/TelekinesisRepel": "Telekinesis (Repel)",
+            "/actions/Default/in/TelekinesisRepel2": "Telekinesis (Repel Button)",
+            "/actions/Default/in/TelekinesisSpin": "Telekinesis (Spin)",
+            "/actions/Default/in/Turn": "Turn",
+            "/actions/Default/in/Use": "Use",
+            "/actions/default/in/GrabGrip": "Grab Grip",
+            "/actions/default/in/GrabPinch": "Grab Pinch",
+            "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
+            "/actions/default/in/Move": "Move",
+            "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
+            "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
+            "/actions/default/out/Haptic": "Haptic",
+            "/actions/Default/in/TurnPress": "Turn (Press)",
+            "/actions/Default/in/MovePress": "Move (Press)"
+        }
+    ]
+}

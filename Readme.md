@@ -2,7 +2,9 @@
 
 Dump of code for XR in Urho3D (was base for porting to RBFX, dump will be eventually updated with results of porting back to RBFX again, and GL support). 
 
-Put out as a dump as I'm too far diverged from 1.6 for it to ever become a PR to master. I've only tested on WMR (Odyssey+) and Oculus CV1. OXR also tested on SteamVR OXR-Runtime via WMR (steam set as OXR runtime instead of WMR or Oculus).
+Put out as a dump as I'm too far diverged from 1.6 for it to ever become a PR to master. I've only tested on WMR (Odyssey+) and Oculus CV1.
+
+**Warning:** this has only ever been Win64 + D3D11 tested.
 
 ##General gist:
 
